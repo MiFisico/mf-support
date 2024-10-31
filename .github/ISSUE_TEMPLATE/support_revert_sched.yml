@@ -23,14 +23,14 @@ body:
       description: Selecciona la fecha de la sesión a cancelar
     validations:
       required: true
-  - type: input
-    id: hora
-    attributes:
-      # label: Hora de la sesión
-      # description: Ingresa solo números para la hora en formato 24 horas (Ejemplo: 14:30)
-      # placeholder: "Ejemplo: 1430"
-    validations:
-      required: true
+  # - type: input
+  #   id: hora
+  #   attributes:
+  #     # label: Hora de la sesión
+  #     # description: Ingresa solo números para la hora en formato 24 horas (Ejemplo: 14:30)
+  #     # placeholder: "Ejemplo: 1430"
+  #   validations:
+  #     required: true
   # - type: textarea
   #   id: motivo
   #   attributes:
