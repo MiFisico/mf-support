@@ -1,0 +1,42 @@
+name: Revertir Sesión
+description: Solicita la cancelación de una sesión
+title: "[Revertir Sesión]: "
+labels: ["revert", "needs triage"]
+assignees: ["cjaviersaldana"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por contactarnos para solicitar la cancelación de la sesión!
+  - type: input
+    id: cedula
+    attributes:
+      label: Número de cédula
+      description: Ingresa solo números para el número de cédula
+      placeholder: "Ejemplo: 1234567890"
+    validations:
+      required: true
+      pattern: "^[0-9]+$"
+  - type: datetime
+    id: fecha
+    attributes:
+      label: Fecha de la sesión
+      description: Selecciona la fecha de la sesión a cancelar
+    validations:
+      required: true
+  - type: input
+    id: hora
+    attributes:
+      label: Hora de la sesión
+      description: Ingresa solo números para la hora en formato 24 horas (Ejemplo: 14:30)
+      placeholder: "Ejemplo: 1430"
+    validations:
+      required: true
+      pattern: "^[6-7]+$"
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Motivo de la cancelación
+      description: Describe el motivo de la cancelación de la sesión
+    validations:
+      required: true
