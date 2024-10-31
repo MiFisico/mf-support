@@ -16,7 +16,7 @@ body:
       placeholder: "Ejemplo: 1234567890"
     validations:
       required: true
-  - type: datetime
+  - type: input
     id: fecha
     attributes:
       label: Fecha de la sesión
