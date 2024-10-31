@@ -1,4 +1,4 @@
-name: Revertir Sesión
+name: Revertir Sesion
 description: Solicita la cancelación de una sesión
 title: "[Revertir Sesión]: "
 labels: ["revert", "needs triage"]
