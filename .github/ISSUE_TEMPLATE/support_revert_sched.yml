@@ -26,22 +26,14 @@ body:
   - type: input
     id: hora
     attributes:
-      label: Fecha de la sesión
-      description: Selecciona la fecha de la sesión a cancelar
+      label: Hora de la sesión
+      description: Ingresa solo números para la hora, recuerde de 6 a 19 hoas.
     validations:
       required: true
-  # - type: input
-  #   id: hora
-  #   attributes:
-  #     # label: Hora de la sesión
-  #     # description: Ingresa solo números para la hora en formato 24 horas (Ejemplo: 14:30)
-  #     # placeholder: "Ejemplo: 1430"
-  #   validations:
-  #     required: true
-  # - type: textarea
-  #   id: motivo
-  #   attributes:
-  #     label: Motivo de la cancelación
-  #     description: Describe el motivo de la cancelación de la sesión
-  #   validations:
-  #     required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Motivo de la cancelación
+      description: Describe el motivo de la cancelación de la sesión
+    validations:
+      required: true
