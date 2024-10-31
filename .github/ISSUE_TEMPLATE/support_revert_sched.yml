@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: input
-    id: fecha2
+    id: hora
     attributes:
       label: Fecha de la sesión
       description: Selecciona la fecha de la sesión a cancelar
